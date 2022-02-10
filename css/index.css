@@ -1,5 +1,5 @@
 body{
-   /* overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 .header{
     position:relative;
@@ -22,7 +22,6 @@ a{
 border:2px solid white;
 position:absolute;
 margin-left:150px;
-/*margin-top:200px;*/
 display:flex;
 align-self: center;
 align-items:center;
@@ -52,7 +51,6 @@ font-size:50px;
       
   }
   .description{
-  /*  position:absolute;*/
     margin-top:auto;
     display:flex;
     flex-flow:column;
@@ -60,12 +58,10 @@ font-size:50px;
     color:black;
   margin-left:-50px;
     background-color: white;
-  /*  width:fit-content;*/
   height: 370px;
   width: 300px;
   padding-left: 50px;
   padding-top: 5px;
-   /* height:min-content;*/
 
   }
   .description p{
@@ -80,7 +76,6 @@ font-size:50px;
   }
   .title-container p{
       font-size:30px;
-     /* margin-left:-65px;*/
     display:flex;
     justify-content:flex-start;
   }
@@ -110,7 +105,6 @@ font-size:50px;
   .photo-container{
       position:relative;
       display:flex;
-     /* margin-right:20px;*/
       justify-content:space-between;
   }
   .photo-container  p{
@@ -119,7 +113,6 @@ font-size:50px;
     font-size: 30px;
     color: white;
     display:flex;
-  /*  justify-content:center;*/
     align-self:flex-end;
     width:80%;
   }
@@ -158,22 +151,6 @@ font-size:50px;
   .the-footer{
       margin-top:50px;
   }
-  /*.photos div img{
-      width:20%;
-     /* padding-right:5%;*/
-  /*}*/
-  /*.photo-container{
-      display:flex;
-      justify-content: space-between;
-      margin-left:0;
-      margin-right:0;
-  }*/
-  /*.photo-container{
-      padding:0;
-  }*/
-  /*.photo-container img{
-      margin-left:20px;
-  }*/
 @media (max-width:850px){
     .floating-div{
       /*  margin-top: 70px;*/
@@ -212,7 +189,6 @@ font-size:50px;
     }
 @media (min-width:850px)and(max-width:1045px){
     .floating-div{
-       /* margin-top:-90px;*/
         font-size:20px;
         
         
@@ -289,13 +265,7 @@ display:flex;
         flex-flow:column;
         justify-content:center;
     }
-    
-   /* .photo-container img{
-        display:flex;
-        justify-content:center;
-    }*/
-
-
+ 
 }
 
 @media (min-width:500px) and (max-width:850px){
@@ -315,7 +285,6 @@ display:flex;
     }
     .photo-container{
         display:flex;
-       /* margin-right:20px;*/
         justify-content:center;
         width:100%;
     }
